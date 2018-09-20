@@ -254,7 +254,7 @@
 //! ```
 
 #![no_std]
-#![cfg_attr(feature = "nightly", feature(rand))]
+//#![cfg_attr(feature = "nightly", feature(rand))]
 #![cfg_attr(feature = "bench", feature(test))]
 #![allow(unused_features)]
 #![deny(missing_docs)] // refuse to compile if documentation is missing
